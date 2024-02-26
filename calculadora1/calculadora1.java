@@ -35,9 +35,7 @@ public class calculadora1 {
         for (int i = 2; i <= n; i++) {
             resultado *= i;
         }
-        return resultado;
-    }
-      {
+        return resultado;}{
         Scanner scanner = new Scanner(System.in);
         
         // Solicitar los números al usuario
@@ -53,7 +51,12 @@ public class calculadora1 {
         // Mostrar el resultado
         System.out.println("La suma es: " + suma);
         
+        // Calcular la resta
+        double resta = num1 - num2;
+        
+        // Mostrar el resultado de la resta
+        System.out.println("La resta es: " + resta);
+        
         scanner.close();
     }
 }
-
